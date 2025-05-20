@@ -2,8 +2,8 @@ name: WeRead to Notion Sync
 
 on:
   schedule:
-    # 北京时间每天早上8点运行
-    - cron: "0 8 * * *"
+
+    - cron: "0 20 * * *"
   # 允许从Actions标签手动触发
   workflow_dispatch:
 
